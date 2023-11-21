@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+  <test thread-count="5" name="Test">
+	  <parameter name="15" value="val12"></parameter>
+	  <parameter name="12" value="val22"></parameter>
+	  <classes>
+      <class name="Projects.Example12_SumParameter"/>
+      </classes>
+    </test> <!-- Test -->
+      
+  <test thread-count="5" name="Test">
+	   <parameter name="30" value="val1"></parameter>
+	  <parameter name="25" value="val2"></parameter>
+      <classes>
+      <class name="Projects.Example13_multiplyParameter"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
